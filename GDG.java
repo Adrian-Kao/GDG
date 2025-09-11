@@ -12,7 +12,7 @@ public class GDG {
     static String onChar  = "*";
     static String offChar = " ";
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         System.setProperty("java.awt.headless", "true");
         BufferedImage tmp = new BufferedImage(1, 1, BufferedImage.TYPE_INT_RGB);
         Graphics2D g0 = tmp.createGraphics();
