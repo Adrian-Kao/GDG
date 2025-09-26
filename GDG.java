@@ -9,7 +9,7 @@ public class GDG {
     static int blockX = 1;          
     static int blockY = 2;         
     static double fillThreshold = 0.3; 
-    static String onChar  = "*";
+    static String onChar  = "@";
     static String offChar = " ";
 
     public static void main(String[] args) {
@@ -50,7 +50,7 @@ public class GDG {
             }
         }
         if (maxX == -1) { 
-            System.out.println(text); 
+            System.out.println(text);
             return;
         }
         
