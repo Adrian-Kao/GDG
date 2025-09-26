@@ -47,7 +47,7 @@ public class encrypt {
         return plaintext.toString();
     }
 
-    // 測試
+    // 輸入端
     public static void main(String[] args) {
         System.out.print("輸入明文: ");
         Scanner sc= new Scanner(System.in);
